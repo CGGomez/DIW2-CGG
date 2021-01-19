@@ -1,0 +1,107 @@
+/*Aspecto General*/
+
+/**/
+body{
+    background-color: grey;
+    font-family: "Niagara Solid";
+    margin: 0;
+}
+
+.texto{
+    font-size: 40px;
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+}
+
+.logo{
+    width: 100%;
+}
+
+.fot{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 50%;
+}
+
+footer{
+    background-color: white;
+    height: auto;
+}
+
+
+.fot{    
+    width: 80;
+    height: 100;
+    display: block;
+    margin: 50%;
+}
+
+/*Enlaces*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #3f3e3d;
+    color:white;
+}
+
+ul{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul, li{
+    list-style: none;
+    padding: 0%;
+    margin-left: 30px;
+    overflow: hidden;
+    font-size: 40px;
+    float: left;
+    text-align: center;
+    background-color:  #b3b1af;
+}
+
+.horario{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 70px;
+}
+
+.dias{
+    font-size: 65px;
+    float: left;
+    margin-left: 10%;
+}
+
+.sab{
+    float: right;
+    font-size: 65px;
+    margin-right: 10%;
+}
+
+.dividor{
+    border-left: 6px solid black;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+}
+
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet){
+
+}
