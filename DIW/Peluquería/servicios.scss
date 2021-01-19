@@ -1,2 +1,14 @@
-@import "style.scss";
+@import "style.scss"; /*importación del principal*/
 
+/*etiquetas y clases propias de este archivo*/
+
+h3{
+    font-size: 45px;
+    text-align: center; 
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}

@@ -1,5 +1,7 @@
 @import "style.scss";
 
+/*etiquetas y clases propias de este archivo*/
+
 h2{
     text-align: center;
 }
@@ -7,9 +9,23 @@ h2{
 .perfume{
     width: 621px;
     height: 127px;
+    border: solid 5px black;
 }
 
 .cabeza{
     height:200px;
     width: 160px;
+    border: solid 5px black;
+}
+
+.varios{
+    width: 576px;
+    height: 180px;
+    border: solid 5px black;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
 }
